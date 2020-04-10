@@ -1,0 +1,102 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-flow: row ;
+}
+.ul{
+    margin-left: 500PX;
+    position: absolute;
+    left: 649px;
+    color: red;
+    
+}
+.li{
+    display: inline-block;
+    margin: 50px;
+   
+}
+#logo{
+    width: 300px;
+    height: 100px;
+}
+.retrogmaingimg{
+    width: 100%;
+    height: 800px;
+}
+.espacevide{
+    width: 100%;
+    height: 50px;
+}
+#titre{
+    margin-left: 846px;
+}
+.jeux{
+    width:300px;
+    height:663px;
+    border: 2px solid grey;
+}
+#jeux2{
+    position: absolute;
+    left: 315px;
+    top: 3001px;
+}
+#jeux3{
+    position: absolute;
+    left: 630px;
+    top: 3001px;
+}
+#jeux4{
+    position: absolute;
+    left: 930px;
+    top: 3001px;
+}
+#jeux5{
+    position: absolute;
+    left: 1246px;
+    top: 3001px;
+}
+
+#pub2{
+    position: absolute;
+    top: 4375px ;
+
+}
+#jeux7{
+    position: absolute;
+    left: 313px;
+    top: 3685px; 
+
+}
+#jeux8{
+    position: absolute;
+    left: 626px;
+    top: 3686px; 
+
+}
+#jeux9{
+    position: absolute;
+    left: 943px;
+    top: 3683px;    
+}
+#jeux10{
+    position: absolute;
+    left: 1259px;
+    top: 3680px; 
+}
+#map{
+    position: absolute;
+    top: 5182px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 124px;
+    position: absolute;
+    top: 5656px;
+    
+}

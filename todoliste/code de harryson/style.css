@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 10px 30px;
+}
+
+.mainInput {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid cyan;
+    background-color: rgb(211, 251, 251);
+    height: 30px;
+    font-size: 20px;
+}
+
+.btnValider {
+    opacity: 0.7;
+    background-color: cyan;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: none;
+}
+
+.todoItem {
+    background-color: cyan;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todoActions i{
+   margin-left: 5px;
+}
+
+
+
+.todoItem p {
+    width: 50%;
+}
+
+#done p {
+    text-decoration: line-through;
+}

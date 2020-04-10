@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: x-large;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ul{
+    display: inline-block;
+    text-decoration: none;
+
+}
+li{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+}
+#dessin{
+    width: 100%;
+    height: 1026px;
+}
+.aboutcontainer{
+    background-color: black;
+    color: white; 
+    width: 100%;
+    height: 599px;
+    display: flex;
+    position: relative;
+}
+.about{
+    margin-left: 20px;
+}
+#about-title{
+    margin-left:499px;
+}
+.compétences{
+    background-color: darkgrey;
+    color: white;
+}
+.languages{
+    margin-left:225px;
+    width: 300px;
+    height: 300px;
+}
+#compétences-title{
+    margin-left:827px;  
+}
+.projets{
+    background-color: black;
+    color: white;
+}
+#projets_title{
+    margin-left: 894px;
+}
+.site_perso{
+    width: 852px;
+    height: 446px;
+    margin: 42px;
+}
+.contact{
+    background-color: darkgrey;
+    color: white;
+}
+#contact_title{
+    margin-left: 893px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+#copyright{
+    margin-left: 818px;
+}
+
+    

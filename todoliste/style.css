@@ -1,0 +1,45 @@
+body{
+    background-image:url("https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fs.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2Fd497cfbda81f5c48e2e11360387f7260%2F206696976%2Ffallout-ed.jpg&client=amp-blogside-v2&signature=d21efe65ddf8fe4a632c811fe547ee162a0c1aa4");
+    background-position: center; 
+}
+.todoForm{
+    background-color:#f9f871;
+    border-radius: 30%;
+    border: 2px solid  #845ec2;
+    width: 30%;
+}                    
+
+
+.todoItem {
+    background-color: #f9f871;
+    border-radius: 20%;
+    border: 2px solid #845ec2;
+    width: 30%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    margin: 30px;
+        -webkit-animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    
+}
+header{
+    width: 70%; 
+    background-color: #f9f871;
+    border-radius: 20%;
+    border: 2px solid #845ec2;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+}
+footer{
+    width: 70%; 
+    background-color: #f9f871;;
+    border-radius: 20%;
+    border: 2px solid #845ec2;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    margin-top: 400px;
+}
+

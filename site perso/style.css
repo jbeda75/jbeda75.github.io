@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://trustmyscience.com/wp-content/uploads/2019/06/dmt-hallucinogene-decouverte-dans-cerveaux-mammiferes--750x400.jpg);
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    width: 300px;
+    height: 300px;
+    transition: 5s;
+}
+.navbar{
+    width: 1700px;
+    height:160px;
+    margin: 50px;
+    border: solid;
+    background-color: rgb(238, 17, 17);
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.video{
+    border: solid;
+    width:650px;
+    height:auto;
+    margin:50px ;
+    background-color: rgb(236, 32, 17);
+    display: inline-block;
+    color: white;
+}
+.video2{
+    border: solid;
+    width:650px;
+    height:auto;
+    background-color: rgb(236, 50, 17);
+    display: inline-block;
+    color: white;
+}
+.Kaleidoscope1{
+    padding: 5px
+}
+
+.article{
+    width: 60%;
+    height:auto;
+    margin:50px ;
+    border-style: solid;
+    background-color:rgb(230, 18, 18);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aside{
+    width:20%;
+    height:1100px;
+    margin: 50px;
+    border-style: solid;
+    position: absolute;
+    left: 1500px;
+    top: 300px;
+    bottom: 100px;
+    background-color: rgb(245, 21, 21);
+    color: white;
+}
+.liste{
+    margin-left: 1400px;
+}
+.contenu{
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+} 
+p{
+    font-size: smaller;
+}
+.footer{
+    width: 1700px;
+    height:116px;
+    margin: 50px;
+    border: solid;
+    background-color: rgb(214, 31, 31);
+    display: inline-block;
+}
+#nom{
+    margin-left: 1500px;
+    color:black;
+}
+
